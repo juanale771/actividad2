@@ -1,0 +1,13 @@
+body {
+    position: relative; 
+  }
+  #section1 {padding-top:50px;height:auto;color: #fff; background-color: #0F1626;}
+  #section2 {padding-top:50px;height:auto;color: #fff; background-color: #AB987A;}
+  #section3 {padding-top:50px;height:auto;color: #000; background-color: white;}
+  #section4 {padding-top:50px;height:auto;color: #fff; background-color: #ff533d;}
+  #section5 {padding-top:10px;height:50px;color: #ffffff85; background-color: black;}
+  p{    font-size: 150%;
+  }
+  h5{
+    text-align: center;
+  }

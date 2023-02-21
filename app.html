@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <div style="position: relative;">
+            <title>Diseño linea sin perdidas</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="newcss.css">
+            <link rel="icon" type="image/x-icon" href="images/linea.png">
+            <script type="text/javascript" src="java.js"></script> 
+        </div>             
+    </head>
+    <body>
+        
+<div class="container">
+        <div class="jumbotron">
+            <h1 style="font-size:200%"><b>ACTIVIDAD 2 CURSO DE APLICACIONES MOVILES 2023-1</b></h1>
+            <h2 style="font-size:160%">Programa de Ingeniería Electrónica</h2>
+            <h3 style="font-size:160%">PARAMETROS DE LINEA DE TRANSMISION</h3>
+        </div>
+    </div>  
+ 
+        <div class="contenedor" >
+            <div class=centrado >
+                <Form name="MyForm" >   
+                    <div class=centrado_a >
+                        <input style="float: center"
+                        type="text" name="L" size="5" ><br><br>
+                    </div>
+                    <div class=centrado_b >
+                        <input style="float: left" 
+                        type="text" name="C" size="5" ><br><br>
+                    </div>
+                    <div class=centrado_c>
+                        <p style="font-size:40px;">Valor de Frecuencia</p>
+                        <input style="float: left" 
+                        type="text" name="F" size="15" ><br><br>
+                    </div>
+                    <div class=centrado_d >
+                        <p style= "font-size:20px" ;> <b>Impedancia caracteristica(Ohm)</b> </p>
+                        <p id="Zo1" style="color:#193a1a; font-size:30px; border-style: solid; border: 4px solid #000000;">--- </p>
+                        <input type="button" class="btn btn-info" value="RESULTADO" onclick="operacion()"><br>
+                    </div>
+                    <div class=centrado_e >
+                        <p style= "font-size:20px" ;> <b>velocidad de fase(m/s)</b> </p>
+                        <p id="Vp2" style="color:#193a1a; font-size:30px; border-style: solid; border: 4px solid #000000;">--- </p>
+                        <input type="button" class="btn btn-info" value="RESULTADO" onclick="operacion2()"><br><br><br>
+                    </div>
+                    <div class=centrado_f >
+                        <p style= "font-size:20px" ;> <b>cte de fase(rad/m)</b> </p>
+                        <p id="Beta1" style="color:#193a1a; font-size:30px; border-style: solid; border: 4px solid #000000;">--- </p>
+                        <input type="button" class="btn btn-info" value="RESULTADO" onclick="operacion3()"><br>
+                    </div>
+                    <div class=centrado_g >
+                        <p style= "font-size:20px" ;> <b>Longitud de onda(cm)</b> </p>
+                        <p id="cte1" style="color:#193a1a; font-size:30px; border-style: solid; border: 4px solid #000000;">--- </p>
+                        <input type="button" class="btn btn-info" value="RESULTADO" onclick="operacion4()"><br><br>
+                    </div>
+                </Form>
+            </div>
+        </div>
+<center>
+        <img class="img-responsive" src="images/Picture1.png" alt="Chania" style="padding-top: 150px;" width="600" height="300">  
+    </center>    
+<br><br><br><br>
+
+    <div id="section5" class="container-fluid">
+        <h5>Diseñado por los estudiantes Juan Alejandro Fernández Crespo y Daniel Felipe González Fonseca</h5>
+      </div>
+
+    </body>  
+    
+</html>
