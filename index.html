@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lineas sin pérdidas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="indexcss.css">
+  <link rel="icon" type="image/x-icon" href="images/linea.png">
+  <script type="text/javascript" src="java.js"></script> 
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">LTSP</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#section1">Líneas de transmisión</a></li>
+          <li><a href="#section2">Parámetros</a></li>
+          <li><a href="#section3">Líneas sin pérdidas</a></li>
+          <li><a href="#section4">Aplicación para diseño</a></li>       
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+    <br>
+    <div class="row">
+	<center>
+  <h1>Líneas de transmisión</h1>
+  </center>
+  <p class="text-justify" style="margin:25px 50px">Una línea de transmisión  eléctrica es básicamente el medio físico mediante el cual se realiza la transmisión y distribución de la energía eléctrica, está constituida por:  conductores, estructuras de soporte, aisladores,  accesorios de ajustes entre aisladores y estructuras de soporte, y cables de guarda (usados en líneas de alta tensión, para protegerlas de descargas atmosféricas); es de suma importancia el estudio de las características eléctricas en los conductores de las lineas, estas abarcan los parámetros impedancia y admitancia, la primera esta conformada por la resistencia y la inductancia uniformemente distribuidas a lo largo de la línea y se representa como un elemento en serie. La segunda esta integrada por la susceptancia y la conductancia y en este caso se representa como un elemento en paralelo, la conductancia representa las corrientes de fuga entre los conductores y los aisladores, esta es prácticamente despreciable por lo que no es considerado un parámetro influyente,  las características tanto de los elementos físicos como eléctricos se explicaran  a continuación</p>
+  <div class="col-sm-6">
+    <img class="img-responsive img-circle" style="margin-bottom:25px" src="images/linea de distribucion.jpg" alt="Chania">
+</div>
+<div class="col-sm-6">
+    <img class="img-responsive img-circle" style="margin-bottom:25px" src="images/lineas-de-transmision.jpg" alt="Chania">
+</div>
+<br>
+</div>
+</div>
+<div id="section2" class="container-fluid">
+<h1>Parámetros de las líneas</h1>
+<div class="row">
+<br>
+  <div class="col-sm-6">
+  <p class="text-justify">
+Las ecuaciones del telégrafo pueden entenderse como una simplificación de las ecuaciones de Maxwell. Para fines prácticos, se asume que el conductor está compuesto por una serie de redes bipuerto (cuadripolos) elementales, representando cada cual un segmento infinitesimal de la línea de transmisión. Un segmento infinitesimal de línea de transmisión queda caracterizado, por cuatro parámetros distribuidos, conocidos también habitualmente como parámetros primarios de la línea de transmisión, y son:
+<li style="font-size:150% ">Inductancia distribuida "L"</li>
+<li style="font-size:150% ">Comportamiento capacitivo distribuido "C"</li>
+<li style="font-size:150% ">Resistencia distribuida "R"</li>
+<li style="font-size:150% ">Confuctancia distribuida "G"</li>
+</p>
+<p class="text-justify">
+y con estos parámetros podemos hallar otras características importantes de la línea de transmisión como lo son: velocidad de fase, constante de propagación, impednacia característica o la longitud de onda.
+</p>
+<br>
+<br>
+  </div>
+  <div class="col-sm-6">
+    <center>
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/modelado.svg.png" alt="Chania">
+</center>
+<br>
+  </div>
+</div>
+  </div>
+
+<div id="section3" class="container-fluid">
+  <h1>Líneas sin pérdidas</h1>
+  <p class="text-justify">Cuando los parámetros R y G son muy pequeños, sus efectos se pueden ignorar, de manera que la línea de transmisión se puede considerar una estructura ideal y sin pérdidas. En este caso, el modelo depende sólo de los parámetros L y C.</p>
+  <p class="text-justify">Las posibles características de la línea que podemos hallar quedan de la siguiente manera:
+   </p>
+  <ul class="list-unstyled">
+    <li style="font-size:150% ">Constante de propagación: es imaginaria pura y lineal con la frecuencia.</li>
+    <center>
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/constante de propagacion.png" alt="Chania">
+</center>
+    <li style="font-size:150% ">Impedancia caracterpistica:Se vuelve complemtamente real</li>
+    <center>
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/Impedancia.png" alt="Chania">
+</center>
+    <li style="font-size:150% ">Tensión:</li>
+   <center>
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/Tension.png" alt="Chania">
+</center>
+    <li style="font-size:150% ">Velocidad de fase: es constante e igual a la velocidad de la luz en el medio eléctrico.</li>
+    <center>
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/Velocidad.png" alt="Chania">
+</center>
+    <li style="font-size:150% "> Longitud de onda:</li>
+    <center>
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/Longitud1.png" alt="Chania">
+    <img class="img-responsive" style="margin:25px 50px size:auto" src="images/Longitud2.png" alt="Chania">
+</center>
+  </ul>
+<br>
+</div>
+<center>
+<div id="section4" class="container-fluid">
+  <h1>Aplicación para diseño</h1>
+  <p class="text-justify">Adicional a esta información, vamos a dejar un aplictivo web que servirá de ayuda para el diseño de líneas de transmisión sin pérdidas. Para ser más exactos, se dará una ayuda al cálculo de la impedancia característica de la línea, la constante de fase, velocidad de fase y longitud de onda; a partir de unos parámetros conocidos que son la inductancia, capacitancia y la frecuencua de trabajo de la línea. Para ir hasta el aplicativo por pafor de click en el siguiente botón!</p>
+  
+  <input type="button" class="btn-success btn-lg" value="APP" onclick="pag()"><br><br>
+</div>
+</center>
+
+<div id="section5" class="container-fluid">
+  <h5>Diseñado por los estudiantes Juan Alejandro Fernández Crespo y Daniel Felipe González Fonseca</h5>
+</div>
+
+
+
+</body>
+</html>
