@@ -11,12 +11,18 @@ h1,h2,h3,p,a {color:  rgb(0, 0, 0);}
 input[type="text"], textarea {
     background-color : rgb(255, 255, 255);
     color : #193a1a;
-    width:auto; height:auto; text-align:center; font-size:14pt; }
+    width:auto; height:auto; text-align:center; font-size:14pt; 
+}
 
-.contenedor{
+.contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
+}
+@media  screen and  (max-width:480px) {
+    h1,h2,h3,p,a {
+        font-size: 22px;
+    }   
 }
 
 .container{
