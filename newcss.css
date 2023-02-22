@@ -19,9 +19,9 @@ input[type="text"], textarea {
     display: inline-block;
     text-align: center;
 }
-@media  screen and  (max-width:480px) {
-    h1,h2,h3,p,a {
-        font-size: 22px;
+@media  only screen and  (max-width:620px) {
+   .left, .right{
+       width:100%;
     }   
 }
 
